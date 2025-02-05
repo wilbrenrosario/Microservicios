@@ -29,15 +29,15 @@ jobs:
       - name: Build and Push Productos Image
         uses: docker/build-push-action@v5
         with:
-          context: productos
-          file: productos/Dockerfile
+          context: Productos
+          file: Productos/Dockerfile
           push: true
           tags: wilbrenrosario/productos:latest
 
       - name: Build and Push Ordenes Image
         uses: docker/build-push-action@v5
         with:
-          context: ../ordenes
+          context: ./Ordenes
           file: ./ordenes/Dockerfile
           push: true
           tags: wilbrenrosario/ordenes:latest
