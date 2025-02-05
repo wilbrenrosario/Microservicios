@@ -1,0 +1,6 @@
+**/obj
+**/.vs
+**/.vscode
+**/Productos/obj
+**/Ordenes/obj
+**/Productos.Tests/bin
