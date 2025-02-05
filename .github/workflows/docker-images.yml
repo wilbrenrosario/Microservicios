@@ -1,4 +1,4 @@
-name: Docker MultiContainer
+name: Docker MultiImages
 
 on:
   push:
@@ -23,13 +23,21 @@ jobs:
           username: wilbrenrosario
           password: barbbiE21
 
-      - name: Build and Push Docker Image
+      - name: Build and Push Productos Image
         uses: docker/build-push-action@v5
         with:
-          context: .
-          file: ./Dockerfile
+          context: ./productos
+          file: ./productos/Dockerfile
           push: true
-          tags: wilbrenrosario/your-image-name-prueba:latest
+          tags: your-dockerhub-user/productos:latest
 
-      - name: Start Services with Docker Compose
+      - name: Build and Push Ordenes Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./ordenes
+          file: ./ordenes/Dockerfile
+          push: true
+          tags: your-dockerhub-user/ordenes:latest
+
+      - name: Deploy with Docker Compose
         run: docker-compose up -d
