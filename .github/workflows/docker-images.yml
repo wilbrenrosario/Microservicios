@@ -29,8 +29,8 @@ jobs:
       - name: Build and Push Productos Image
         uses: docker/build-push-action@v5
         with:
-          context: ../productos
-          file: ./productos/Dockerfile
+          context: productos
+          file: productos/Dockerfile
           push: true
           tags: wilbrenrosario/productos:latest
 
