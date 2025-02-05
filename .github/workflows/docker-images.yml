@@ -26,18 +26,18 @@ jobs:
       - name: Build and Push Productos Image
         uses: docker/build-push-action@v5
         with:
-          context: ./productos
+          context: ../productos
           file: ./productos/Dockerfile
           push: true
-          tags: your-dockerhub-user/productos:latest
+          tags: wilbrenrosario/productos:latest
 
       - name: Build and Push Ordenes Image
         uses: docker/build-push-action@v5
         with:
-          context: ./ordenes
+          context: ../ordenes
           file: ./ordenes/Dockerfile
           push: true
-          tags: your-dockerhub-user/ordenes:latest
+          tags: wilbrenrosario/ordenes:latest
 
       - name: Deploy with Docker Compose
         run: docker-compose up -d
