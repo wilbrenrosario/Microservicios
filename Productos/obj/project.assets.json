@@ -3245,23 +3245,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Wilbren\\.nuget\\packages\\": {},
+    "C:\\Users\\willt\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wilbren\\source\\repos\\Microservicios\\Productos\\Productos.csproj",
+      "projectUniqueName": "C:\\Users\\willt\\Desktop\\Microservicios\\Productos\\Productos.csproj",
       "projectName": "Productos",
-      "projectPath": "C:\\Users\\Wilbren\\source\\repos\\Microservicios\\Productos\\Productos.csproj",
-      "packagesPath": "C:\\Users\\Wilbren\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Wilbren\\source\\repos\\Microservicios\\Productos\\obj\\",
+      "projectPath": "C:\\Users\\willt\\Desktop\\Microservicios\\Productos\\Productos.csproj",
+      "packagesPath": "C:\\Users\\willt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\willt\\Desktop\\Microservicios\\Productos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Wilbren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\willt\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

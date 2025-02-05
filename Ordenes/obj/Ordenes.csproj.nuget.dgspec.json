@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wilbren\\source\\repos\\Microservicios\\Ordenes\\Ordenes.csproj": {}
+    "C:\\Users\\willt\\Desktop\\Microservicios\\Ordenes\\Ordenes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wilbren\\source\\repos\\Microservicios\\Ordenes\\Ordenes.csproj": {
+    "C:\\Users\\willt\\Desktop\\Microservicios\\Ordenes\\Ordenes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wilbren\\source\\repos\\Microservicios\\Ordenes\\Ordenes.csproj",
+        "projectUniqueName": "C:\\Users\\willt\\Desktop\\Microservicios\\Ordenes\\Ordenes.csproj",
         "projectName": "Ordenes",
-        "projectPath": "C:\\Users\\Wilbren\\source\\repos\\Microservicios\\Ordenes\\Ordenes.csproj",
-        "packagesPath": "C:\\Users\\Wilbren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wilbren\\source\\repos\\Microservicios\\Ordenes\\obj\\",
+        "projectPath": "C:\\Users\\willt\\Desktop\\Microservicios\\Ordenes\\Ordenes.csproj",
+        "packagesPath": "C:\\Users\\willt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willt\\Desktop\\Microservicios\\Ordenes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Wilbren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
