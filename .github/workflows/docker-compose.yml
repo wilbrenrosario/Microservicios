@@ -37,8 +37,8 @@ jobs:
       - name: Build and Push Ordenes Image
         uses: docker/build-push-action@v5
         with:
-          context: ./Ordenes
-          file: ./ordenes/Dockerfile
+          context: Ordenes
+          file: Ordenes/Dockerfile
           push: true
           tags: wilbrenrosario/ordenes:latest
 
