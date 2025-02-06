@@ -2,11 +2,11 @@
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordenes", "Ordenes\Ordenes.csproj", "{B7D497CE-660E-AB39-1223-75AECFDCCD5E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordenes", "src\Ordenes\Ordenes.csproj", "{B7D497CE-660E-AB39-1223-75AECFDCCD5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Productos", "Productos\Productos.csproj", "{8628AB4A-606E-50EC-A785-E47DFF6ECF68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Productos", "src\Productos\Productos.csproj", "{8628AB4A-606E-50EC-A785-E47DFF6ECF68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Productos.Tests", "Productos.Tests\Productos.Tests.csproj", "{DC3DBB8E-2778-4841-A9A2-9A2403B75CF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Productos.Tests", "tests\Productos.Tests\Productos.Tests.csproj", "{DC3DBB8E-2778-4841-A9A2-9A2403B75CF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,11 +1,11 @@
 services:
   ordenes:
     build: 
-      context: ./Ordenes
+      context: ./src/Ordenes
     ports:
       - "8000:8080"
   productos:
     build: 
-      context: ./Productos
+      context: ./src/Productos
     ports:
       - "8001:8080"
