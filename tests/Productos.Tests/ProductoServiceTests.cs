@@ -2,7 +2,8 @@ using System;
 using Xunit;
 using Moq;
 using Producto.Controllers;
-using Models; // Reemplázalo con tu namespace real
+using Models;
+using MassTransit; // Reemplázalo con tu namespace real
 
 public class ProductoServiceTests
 {
@@ -11,7 +12,8 @@ public class ProductoServiceTests
     {
         // Arrange
         var mockDbContext = new Mock<AppDbContext>();
-        var service = new ProductoController(mockDbContext.Object);
+        var mockBus = new Mock<IBus>();
+        var service = new ProductoController(mockDbContext.Object, mockBus.Object);
 
         // Act
         var result = service.Get();
